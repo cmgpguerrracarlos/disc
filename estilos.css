@@ -12,16 +12,21 @@
     
 }
 
+body{
+    background-color:blueviolet;
+    
+}
+
 .contenedor{
+    position: relative;
+    height: 700px;
     display:flex;
     font-size: 10px;
 }
 
-
 .aside{
     flex:1;
     background-color: aqua;
-    height: 630px;
     display: flex;
     flex-direction: column;
 }
@@ -39,6 +44,16 @@
     margin: 10px;
 }
 
+.mensaje{
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+}
+
+.mensaje .button{
+    width: 30px;
+    height: 30px;
+}
 .hub{
     display:flex;
     width: 100%;
@@ -95,7 +110,7 @@ input{
 .main{
     flex:7;
     background-color: rgb(37, 37, 37);
-    height: 630px;
+    height: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -132,10 +147,25 @@ input{
 .body-left{
     width: 150px;
     background-color: rgb(37, 37, 37);
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.lista-canales{
+    padding: 5px;
+}
+
+.canal{
+    padding: 5px;
 }
 
 .body-center{
     flex:6;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat{
     display: flex;
     flex-direction: column;
 }
