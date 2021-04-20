@@ -7,6 +7,8 @@
 
 body{
     background-color:black;
+    min-height: 100vh;
+    box-sizing: content-box;
     
 }
 
@@ -230,3 +232,19 @@ h3{
     text-align: center;
 }
 
+.rojo{
+    background-color: rgb(201, 99, 99);
+}
+
+.azul{
+    background-color: rgb(146, 146, 219);
+
+}
+
+.amarillo{
+    background-color: rgb(221, 221, 103);
+}
+
+.verde{
+    background-color: rgb(104, 187, 104);
+}
