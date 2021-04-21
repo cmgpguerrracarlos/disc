@@ -17,6 +17,7 @@ body{
     height: 700px;
     display:flex;
     font-size: 10px;
+    box-sizing: content-box;
 }
 
 .aside{
