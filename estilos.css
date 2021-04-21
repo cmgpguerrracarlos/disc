@@ -7,17 +7,16 @@
 
 body{
     background-color:black;
-    min-height: 100vh;
-    box-sizing: content-box;
-    
+      
 }
 
 .contenedor{
     position: relative;
-    height: 700px;
     display:flex;
     font-size: 10px;
     box-sizing: content-box;
+    height: 100vh;
+    width: 100vw;  
 }
 
 .aside{
@@ -25,6 +24,7 @@ body{
     background-color: aqua;
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 .servidores{ 
@@ -114,7 +114,7 @@ input{
 .main{
     flex:7;
     background-color: rgb(37, 37, 37);
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
 }
