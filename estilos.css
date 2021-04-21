@@ -173,6 +173,7 @@ input{
     justify-content: end;
     overflow:scroll;
     overflow-x:hidden;
+    scrollbar-color: black;
 }
 
 .body-right{
@@ -188,18 +189,22 @@ input{
 .body-center-footer{
     flex:1;
     background-color: rgb(37, 37, 37);
+}
+
+.cuadro-mensaje{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    padding: 5px;
 }
 
 .body-center-footer input{
-    width: 840px;
+    width: 100%;
     background-color: rgb(50, 50, 50);
-    height: 35px;
+    height: 30px;
     border-radius: 5px;
-
+    padding: 10px;
 }
 
 h5, h6{
