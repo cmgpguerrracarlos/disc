@@ -120,7 +120,7 @@ input{
 
 .main-head{
     flex:1;
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(30, 30, 30);
     display: flex;
     justify-content: start;
 
@@ -129,16 +129,17 @@ input{
 .hojas{
     box-sizing: border-box;
     display: flex;
-    width: 150px;
+    width: 180px;
     height: 100%;
     color: aliceblue;
     opacity: .5;
     justify-content: space-between;
     align-items: center;
     font-size: 6px;
-    padding: 5px 10px;
-    background-color: rgb(37, 37, 37);
-    border: 1px solid rgb(42, 42, 42);
+    padding:  10px;
+    background-color: rgb(48, 48, 48);
+    border: none;
+    border-radius: 0px 20px 0px 0px;
 }
 
 .main-body{
@@ -148,22 +149,18 @@ input{
 }
 
 .body-left{
-    width: 150px;
+    flex:1;
     background-color: rgb(37, 37, 37);
     box-sizing: border-box;
-    padding: 15px;
+    padding: 5px 15px;
 }
 
 .lista-canales{
-    padding: 5px;
-}
-
-.canal{
-    padding: 5px;
+    padding: 0px 5px;
 }
 
 .body-center{
-    flex:6;
+    width: 850px;
     display: flex;
     flex-direction: column;
 }
@@ -178,12 +175,12 @@ input{
 }
 
 .body-right{
-    flex:1.5;
+    flex:1;
     background-color: rgb(37, 37, 37);
 }
 
 .body-center-main{
-    flex:8;
+    flex:7;
     background-color: rgb(41, 41, 41);
 }
 
@@ -193,10 +190,11 @@ input{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .body-center-footer input{
-    width: 850px;
+    width: 840px;
     background-color: rgb(50, 50, 50);
     height: 35px;
     border-radius: 5px;
@@ -247,4 +245,48 @@ h3{
 
 .verde{
     background-color: rgb(104, 187, 104);
+}
+
+.pto{
+    width: 10px;
+    height: 10px;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.canales{
+    padding: 3px;
+}
+
+.canal{
+    padding-top: 10px;
+}
+
+.canal h1{
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.g{
+    background-color: green;
+}
+
+.r{
+    background-color: red;
+}
+
+#general{
+    width: 90%;
+    background-color: grey;
+    border: none;
+    border-radius: 20px;
+    padding: 3px 5px;    
+}
+
+.titulo{
+    padding: 0px 5px;
+    color: rgb(139, 131, 131);
+    font-size: 12px;
 }
