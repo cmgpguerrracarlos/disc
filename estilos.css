@@ -7,25 +7,23 @@
 
 body{
     background-color:black;
-    width: 100%;
       
 }
 
 .contenedor{
-    background-color: green;
     display:grid;
-    grid-template-columns: 13vw 87vw;
+    grid-template-columns: 15vw auto;
+    grid-template-rows: 100vh;
     font-size: 10px;
 }
 
 .aside{
     background-color: aqua;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: auto 7vh;
 }
 
 .servidores{ 
-    flex: 12;
     background-color: rgb(26, 26, 26);
     display: flex;
     flex-direction: column;
@@ -108,7 +106,7 @@ input{
 
 
 .info-usuario{ 
-    flex:1;
+
     background-color: rgb(37, 37, 37);
     display: flex;
     justify-content: center;
@@ -117,12 +115,11 @@ input{
 
 .main{
     background-color: rgb(37, 37, 37);
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: 6vh auto;
 }
 
 .main-head{
-    flex:1;
     background-color: rgb(30, 30, 30);
     display: flex;
     justify-content: start;
@@ -146,10 +143,9 @@ input{
 }
 
 .main-body{
-    flex:14;
     background-color: rgb(37, 37, 37);
-    display:grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    display: grid;
+    grid-template-columns: 15vw auto 15vw;
 }
 
 .body-left{
@@ -163,8 +159,8 @@ input{
 }
 
 .body-center{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+            grid-template-rows: auto 10vh;
 }
 
 .chat{
@@ -183,13 +179,12 @@ input{
 }
 
 .body-center-main{
-    flex:7;
+
     background-color: rgb(41, 41, 41);
     padding: 10px 0px;
 }
 
 .body-center-footer{
-    flex:3;
     background-color: rgb(37, 37, 37);
     padding: 10px 5px;
 }
