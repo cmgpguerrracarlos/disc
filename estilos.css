@@ -7,24 +7,21 @@
 
 body{
     background-color:black;
+    width: 100%;
       
 }
 
 .contenedor{
-    position: relative;
-    display:flex;
+    background-color: green;
+    display:grid;
+    grid-template-columns: 13vw 87vw;
     font-size: 10px;
-    box-sizing: content-box;
-    height: 100vh;
-    width: 100vw;  
 }
 
 .aside{
-    flex:1;
     background-color: aqua;
     display: flex;
     flex-direction: column;
-    height: 100vh;
 }
 
 .servidores{ 
@@ -119,9 +116,7 @@ input{
 }
 
 .main{
-    flex:7;
     background-color: rgb(37, 37, 37);
-    height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -153,11 +148,11 @@ input{
 .main-body{
     flex:14;
     background-color: rgb(37, 37, 37);
-    display:flex;
+    display:grid;
+    grid-template-columns: 1fr 3fr 1fr;
 }
 
 .body-left{
-    width: 180px;
     background-color: rgb(37, 37, 37);
     box-sizing: border-box;
     padding: 5px 15px;
@@ -168,7 +163,6 @@ input{
 }
 
 .body-center{
-    flex:1;
     display: flex;
     flex-direction: column;
 }
@@ -176,7 +170,7 @@ input{
 .chat{
     display: flex;
     flex-direction: column;
-    height: 600px;
+    height: 83vh;
     justify-content: end;
     overflow:scroll;
     overflow-x:hidden;
@@ -184,18 +178,20 @@ input{
 }
 
 .body-right{
-    width: 180px;
+
     background-color: rgb(37, 37, 37);
 }
 
 .body-center-main{
     flex:7;
     background-color: rgb(41, 41, 41);
+    padding: 10px 0px;
 }
 
 .body-center-footer{
-    flex:1;
+    flex:3;
     background-color: rgb(37, 37, 37);
+    padding: 10px 5px;
 }
 
 .cuadro-mensaje{
@@ -211,7 +207,7 @@ input{
     background-color: rgb(50, 50, 50);
     height: 30px;
     border-radius: 5px;
-    padding: 10px;
+    padding: 15px 10px;
 }
 
 h5, h6{
